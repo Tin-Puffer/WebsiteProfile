@@ -7,7 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import mts from "./mts.png";
-import ani from "./anii.png";
+import ani from "./ani.png";
 import ctv from "./ctv.png";
 import hub from "./hub.png";
 import fbo from "./fboo.png";
