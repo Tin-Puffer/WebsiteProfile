@@ -6,6 +6,15 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import mts from "./mts.png";
+import ani from "./anii.png";
+import ctv from "./ctv.png";
+import hub from "./hub.png";
+import fbo from "./fboo.png";
+
+
+
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,17 +29,38 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nexxjs from "./tech/nexxjs.png";
+import saga from "./tech/Saga.png";
+import antd from "./tech/antd.png";
+import bt from "./tech/bt.png";
+import fb from "./tech/fb.png";
+
+
+
+
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  fbo,
+  hub,
+  ctv,
+  mts,
+  ani,
+  fb,
+  bt,
+  antd,
+  saga,
+  nexxjs,
   logo,
   backend,
   creator,

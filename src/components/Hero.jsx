@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { fbo, github, hub } from "../assets";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -16,12 +17,22 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Liron</span>
+            Hi, I'm <span className="text-[#915EFF]">Tín</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
+            I'm Front-End develop, user <br className="sm:block hidden" />
             interfaces and web applications
           </p>
+          <div style={{display:"flex",marginTop:"10px"}}>
+            <div className="box-info" style={{backgroundImage:`url(${fbo})`}}
+            onClick={()=> window.open("https://www.facebook.com/profile.php?id=100010025195735", "_blank")}
+            >
+            </div>
+            <div className="box-info" style={{backgroundImage:`url(${github})`}}
+            onClick={()=> window.open("https://github.com/Tin-Puffer", "_blank")}
+            >
+            </div>
+          </div>
         </div>
       </div>
       

@@ -9,6 +9,7 @@ import {
   css,
   reactjs,
   redux,
+  nexxjs,
   tailwind,
   nodejs,
   mongodb,
@@ -23,6 +24,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  saga,
+  antd,
+  bt,
+  fb,
+  mts,
+  ani,
+  ctv,
 } from "../assets";
 
 export const navLinks = [
@@ -31,8 +39,12 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "tech",
+    title: "Tech",
+  },
+  {
     id: "work",
-    title: "Work",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -42,19 +54,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front-End Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "NextJS framework",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Understanding UI/UX",
+    icon: mobile,
+  },
+  {
+    title: "Working Restful api",
     icon: creator,
   },
 ];
@@ -81,37 +93,34 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "next JS",
+    icon: nexxjs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "saga",
+    icon: saga,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "antd",
+    icon: antd,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "BT",
+    icon: bt,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "FireBase",
+    icon: fb,
   },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
@@ -198,67 +207,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "My Time Store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Watch Shop is an online watch selling website with basic functions and a blog to share watch news, updates and knowledge. In addition, it also provides functions to help administrators manage the website.",
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "FireBase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Antd",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: mts,
+    source_code_link: "https://github.com/Tin-Puffer/MyTimeStore-Nextjs",
   },
   {
-    name: "Job IT",
+    name: "Anime Film",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "AnimeZ.top is a website to watch anime online with basic functions such as watching anime, filtering, searching. In addition, it also provides the functions of saving movies, logging in, registerin.",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MockApi.io",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Saga",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ani,
+    source_code_link: "https://github.com/Tin-Puffer/anime47",
   },
   {
-    name: "Trip Guide",
+    name: "CTV STORE",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "CTV Store is a website trading mechanical items with basic functions. In addition, it also provides functions to help administrators manage the website.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "NodeJS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ctv,
+    source_code_link: "https://github.com/Tin-Puffer/WebShopREACJS/tree/master/DDOANTTTN/my-app",
   },
 ];
 
