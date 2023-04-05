@@ -9,9 +9,9 @@ export default function IconSkill({icon}){
         <div className="container-skill">
 
 
-    <div class="innerCircle" style={{backgroundImage:`url(${icon})`}}>  
+    <div className="innerCircle" style={{backgroundImage:`url(${icon})`}}>  
   </div>
-    <div class="outerCircle" >
+    <div className="outerCircle" >
   <span ></span>
   <span></span>
   <span></span>
